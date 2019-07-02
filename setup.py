@@ -19,6 +19,7 @@ setup(
     long_description_content_type='text/markdown',
     author='codetent',
     author_email='codetent@gmail.com',
+    url='https://github.com/codetent/packy'
     classifiers=[
         # How mature is this project? Common values are
         #   3 - Alpha
