@@ -12,13 +12,12 @@ with open(path.join(here, 'README.md'), 'r', encoding='utf-8') as f:
 
 setup(
     name='packy',  # Required
-    version='0.1.3',
+    version='0.1.4',
     description='Package manager for downloading packages ' \
                 'from content providers',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='codetent',
-    author_email='codetent@gmail.com',
     url='https://github.com/codetent/packy',
     classifiers=[
         # How mature is this project? Common values are
