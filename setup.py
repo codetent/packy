@@ -12,7 +12,7 @@ with open(path.join(here, 'README.md'), 'r', encoding='utf-8') as f:
 
 setup(
     name='packy',  # Required
-    version='0.1.1',
+    version='0.1.2',
     description='Package manager for downloading packages ' \
                 'from content providers',
     long_description=long_description,
