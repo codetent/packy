@@ -26,11 +26,13 @@ setup(
         #   4 - Beta
         #   5 - Production/Stable
         'Development Status :: 3 - Alpha',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7'
     ],
     keywords='package CDNJS JS packet',
     py_modules=['packy'],
-    python_requires='>=3.7',
+    python_requires='>=3.5',
     entry_points={
         'console_scripts': [
             'packy=packy:main'
